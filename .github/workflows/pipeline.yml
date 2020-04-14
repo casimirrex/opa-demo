@@ -23,13 +23,9 @@ jobs:
           java-version: 1.8
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      - name: Change directory
-        run: cd webapp
-      - name: Build with Gradle
-        run: ../gradlew build
-      - name: Package BootJar
-        run: ../gradlew bootJar
-      - name: Create build directory
+      - name: Build and Package
+        run: cd webapp && ../gradlew build bootJar
+      - name: Create build directory for Image
         run: mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
@@ -38,3 +34,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "latest"
+          workdir: webapp
