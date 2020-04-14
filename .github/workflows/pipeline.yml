@@ -26,7 +26,9 @@ jobs:
       - name: Build and Package
         run: cd webapp && ../gradlew build bootJar
       - name: Create build directory for Image
-        run: mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)
+        run: |
+          pwd
+          mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
