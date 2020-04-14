@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/webapp">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="webapp" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="webapp" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="webapp" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opa-demo" type="f1a62948:ProjectNode" />
+                <item name="webapp" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1aY1qHSK8eIk54lR5ogBr7ViL0s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14471781" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/src/test/java" />
+      <recent name="$PROJECT_DIR$/webapp/src/main/resources" />
+      <recent name="$PROJECT_DIR$/webapp/src/main/java" />
+      <recent name="$PROJECT_DIR$/webapp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle bootJar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.opa-demo [bootJar]">
+    <configuration name="opa-demo [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpaWebDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="opa-demo.webapp.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.opawebdemo.OpaWebDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.opa-demo [bootJar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="" />
+      <created>1586897902606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586897902606</updated>
+      <workItem from="1586897906187" duration="973000" />
+      <workItem from="1586903875203" duration="356000" />
+      <workItem from="1586904308872" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="648" y="169" key="#Project_Structure" timestamp="1586898327676">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="648" y="169" key="#Project_Structure/0.23.1680.959@0.23.1680.959" timestamp="1586898327676" />
+    <state width="1221" height="250" key="GridCell.Tab.0.bottom" timestamp="1586903852253">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1221" height="250" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1586903852253" />
+    <state width="1221" height="250" key="GridCell.Tab.0.center" timestamp="1586903852252">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1221" height="250" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1586903852252" />
+    <state width="1221" height="250" key="GridCell.Tab.0.left" timestamp="1586903852251">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1221" height="250" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1586903852251" />
+    <state width="1221" height="250" key="GridCell.Tab.0.right" timestamp="1586903852252">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1221" height="250" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1586903852252" />
+    <state x="234" y="118" key="new project wizard" timestamp="1586897918833">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="234" y="118" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1586897918833" />
+    <state x="713" y="231" width="670" height="675" key="run.anything.popup" timestamp="1586898171341">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="713" y="231" width="670" height="675" key="run.anything.popup/0.23.1680.959@0.23.1680.959" timestamp="1586898171341" />
+  </component>
+</project>
