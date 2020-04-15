@@ -15,9 +15,14 @@ public class OpaWebDemoApplication {
 	@RestController
 	public class SampleRestClass {
 
-		@GetMapping("/")
+		@GetMapping("/hello")
 		public String sayHello() {
 			return "Hello World";
+		}
+
+		@GetMapping("/bye")
+		public String sayBye() {
+			return "Bye";
 		}
 
 	}
