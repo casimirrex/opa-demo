@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/AuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/create-configmap.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/deployment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opa/Dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
       <updated>1586897902606</updated>
       <workItem from="1586897906187" duration="973000" />
       <workItem from="1586903875203" duration="356000" />
-      <workItem from="1586904308872" duration="15906000" />
+      <workItem from="1586904308872" duration="19506000" />
     </task>
     <servers />
   </component>
@@ -202,10 +201,10 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="648" y="169" key="#Project_Structure/0.23.1680.959@0.23.1680.959" timestamp="1586898327676" />
-    <state x="535" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586963904777">
+    <state x="535" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586968309569">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="535" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1586963904777" />
+    <state x="535" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1586968309569" />
     <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1586915919498">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
