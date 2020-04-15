@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opa/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opa/policy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/OPADataRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/OPADataResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/OPAVoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/WebSecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/OpaWebDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com.example.opawebdemo/OpaWebDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +173,7 @@
       <updated>1586897902606</updated>
       <workItem from="1586897906187" duration="973000" />
       <workItem from="1586903875203" duration="356000" />
-      <workItem from="1586904308872" duration="14277000" />
+      <workItem from="1586904308872" duration="14489000" />
     </task>
     <servers />
   </component>

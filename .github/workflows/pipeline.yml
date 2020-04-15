@@ -37,10 +37,13 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "latest"
           workdir: webapp
+
   test-opa-policies:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+          uses: actions/checkout@v2
       - name: OPA Test
         uses: petroprotsakh/opa-test-action@v2.1
         with:
