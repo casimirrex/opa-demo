@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kubernetes/create-configmap.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/run-tests.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <command value="gradle bootJar" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OpaWebDemoApplicationTests">
+  <component name="RunManager" selected="JUnit.TestClass.testing">
     <configuration name="opa-demo [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,6 +163,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="opa-demo.webapp.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.opawebdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.opawebdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.opawebdemo.TestClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="opa-demo.webapp.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.opawebdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.opawebdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.opawebdemo.TestClass" />
+      <option name="METHOD_NAME" value="testing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpaWebDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="opa-demo.webapp.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.opawebdemo.OpaWebDemoApplication" />
@@ -172,6 +203,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClass.testing" />
+        <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.OpaWebDemoApplicationTests" />
         <item itemvalue="Gradle.opa-demo [bootJar]" />
       </list>
@@ -190,6 +223,9 @@
       <workItem from="1586897906187" duration="973000" />
       <workItem from="1586903875203" duration="356000" />
       <workItem from="1586904308872" duration="19506000" />
+      <workItem from="1587123884202" duration="6000" />
+      <workItem from="1587436151428" duration="348000" />
+      <workItem from="1588068293507" duration="9717000" />
     </task>
     <servers />
   </component>
@@ -217,26 +253,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="603" y="238" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1586949629297" />
-    <state width="1638" height="354" key="GridCell.Tab.0.bottom" timestamp="1586965803902">
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1588092566977">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586965803902" />
     <state width="1221" height="250" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1586903852253" />
-    <state width="1638" height="354" key="GridCell.Tab.0.center" timestamp="1586965803900">
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588092566977" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1588092566975">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586965803900" />
     <state width="1221" height="250" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1586903852252" />
-    <state width="1638" height="354" key="GridCell.Tab.0.left" timestamp="1586965803898">
+    <state width="1638" height="287" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588092566975" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1588092566974">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586965803898" />
     <state width="1221" height="250" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1586903852251" />
-    <state width="1638" height="354" key="GridCell.Tab.0.right" timestamp="1586965803901">
+    <state width="1638" height="287" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588092566974" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1588092566976">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586965803901" />
     <state width="1221" height="250" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1586903852252" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588092566976" />
     <state width="1638" height="354" key="GridCell.Tab.1.bottom" timestamp="1586965803906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -289,10 +329,10 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="713" y="231" width="670" height="675" key="run.anything.popup/0.23.1680.959@0.23.1680.959" timestamp="1586898171341" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1586950329615">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587436408966">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586950329615" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587436408966" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

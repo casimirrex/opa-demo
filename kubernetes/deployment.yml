@@ -31,6 +31,8 @@ spec:
               containerPort: 8181
           args:
             - "run"
+            - "--log-level"
+            - "debug"
             - "--ignore=.*"  # exclude hidden dirs created by Kubernetes
             - "--server"
             - "/policies"
