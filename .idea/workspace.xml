@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcac73fc-d2b6-4de1-a738-9ee95dea3090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kubernetes/run-tests.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +224,7 @@
       <workItem from="1586904308872" duration="19506000" />
       <workItem from="1587123884202" duration="6000" />
       <workItem from="1587436151428" duration="348000" />
-      <workItem from="1588068293507" duration="9717000" />
+      <workItem from="1588068293507" duration="11971000" />
     </task>
     <servers />
   </component>
